@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+p {
+  @apply tracking-wide text-slate-900;
+}
+
+.brdr {
+  border-radius: 0 0 50% 50% /0 0 100% 100%;
+}
+li,
+select,
+option {
+  cursor: pointer;
+}
+.bd {
+  backdrop-filter: blur(10px);
+}
+.title {
+  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+}
+.titleW {
+  text-shadow: 2px 0 white, -2px 0 white, 0 2px white, 0 -2px white,
+    1px 1px white, -1px -1px white, -1px 1px white, 1px -1px white;
+    
+}
+.tooltip:hover .tooltip-item {
+  visibility: visible;
+}
+.font-semi {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
