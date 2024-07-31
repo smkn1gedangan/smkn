@@ -12,35 +12,35 @@ const Footer = ({ bgFooter }) => {
     };
   }, []);
   return (
-    <div className={`${bgFooter} w-full flex items-center flex-wrap `}>
-      <div className="w-full flex items-center flex-col lg:w-[40%] p-2">
+    <div className={`${bgFooter} w-full flex items-center flex-wrap mt-20 `}>
+      <div className="w-full flex items-center flex-col lg:w-1/2 p-2">
         <img src="./icon.png" className="w-24 h-24" alt="" />
-        <p className="text-center font-semibold font-sans mt-4">
+        <p className="text-center fontPrimary mt-4">
           Jl. Raya Sumberrejo, Sumberrejo Krajan, Sumberejo, Gedangan, Kabupaten
           Malang, Jawa Timur 65178.SMK Negeri 1 loremData bertekad mencapai
           perbaikan yang berkesinambungan berdasarkan sistem manajemen mutu
         </p>
       </div>
 
-      <div className="flex items-center flex-col w-full lg:w-[30%] p-4 ">
-        <h1 className="font-semibold text-2xl lg:h-24">contact</h1>
+      <div className="flex items-center flex-col w-full lg:w-1/3 p-4 ">
+        <h1 className="font-semibold fontPrimary text-2xl lg:h-24">contact</h1>
         <div className="flex flex-wrap w-full justify-center">
-          <p className="text-center mx-2 font-sans font-semibold"> Whatsapp</p>
-          <p className="text-center mx-2 font-sans font-semibold">Telegram</p>
-          <p className="text-center mx-2 font-sans font-semibold">Facebook</p>
-          <p className="text-center mx-2 font-sans font-semibold">Instagram</p>
-          <p className="text-center mx-2 font-sans font-semibold">Youtube</p>
-          <p className="text-center mx-2 font-sans font-semibold">Tiktok</p>
-          <Link to={`/login`} className="text-center mx-2 font-sans font-bold">login</Link>
+          <p className="text-center mx-2 fontPrimary"> Whatsapp</p>
+          <p className="text-center mx-2 fontPrimary">Telegram</p>
+          <p className="text-center mx-2 fontPrimary">Facebook</p>
+          <p className="text-center mx-2 fontPrimary">Instagram</p>
+          <p className="text-center mx-2 fontPrimary">Youtube</p>
+          <p className="text-center mx-2 fontPrimary">Tiktok</p>
+          <Link to={`/login`} className="fontPrimary font-bold text-center mx-2 ">login</Link>
         </div>
       </div>
-      <div className="w-full bg-black h-20 flex items-center justify-center p-2 mt-10">
-        <p className="text-center text-white ">
+      <div className="w-full bg-blue-600 h-20 flex items-center justify-center p-2 mt-10">
+        <p className="text-center fontPrimary text-white ">
           @ {timerFooter} &nbsp;
-          <span className="font-semibold text-white ">
+          <span className="fontPrimary font-semibold text-white ">
             OFFICIAL SMKN 1 GEDANGAN | &nbsp;
           </span>
-          <a target="_blank" href="https://usammuhazir.vercel.app">
+          <a target="_blank" className="fontPrimary" href="https://usammuhazir.vercel.app">
             All rights reserved
           </a>
         </p>

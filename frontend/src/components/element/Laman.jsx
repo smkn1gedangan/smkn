@@ -26,12 +26,12 @@ const Laman = ({ about, type }) => {
         </Icon>
         <Link
           to={type === "edited" ? `/edited` : "/"}
-          className="font-semibold text-blue-950"
+          className="font-semibold fontPrimary text-blue-950"
         >
           Beranda
         </Link>
         <span>&gt;</span>
-        <h1>{about}</h1>
+        <h1 className="fontPrimary">{about}</h1>
       </div>
     </div>
   );

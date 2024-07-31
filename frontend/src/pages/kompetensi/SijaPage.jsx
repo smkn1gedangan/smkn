@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../../components/fragment/navbar/Navbar";
 import Footer from "../../components/layouts/Footer";
 import Kompetensi from "../../components/fragment/content/kompetensi/Kompetensi";
 
 const SijaPage = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   const data = [
     "Sistem Komputer",
     "Komputer dan Jaringan Dasar",

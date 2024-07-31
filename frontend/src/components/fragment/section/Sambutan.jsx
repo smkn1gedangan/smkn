@@ -11,7 +11,7 @@ const Sambutan = () => {
   return (
     <div className="  ">
       <div>
-        <h1 className="font-semibold text-center text-2xl my-2 lg:my-10 lg:text-4xl ">
+        <h1 className="fontPrimary text-center text-2xl my-6 lg:mt-14 lg:text-3xl ">
           Sambutan Kepala Sekolah
         </h1>
         <div className="w-full flex flex-wrap justify-center lg:p-4">
@@ -23,7 +23,7 @@ const Sambutan = () => {
             />
           </div>
           <div className="w-full lg:w-1/2 lg:flex lg:items-center ">
-            <p className="text-center w-full p-2 lg:text-xl font-sans">
+            <p className="text-center w-full p-2 lg:text-base font-serif">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
               tempora quasi necessitatibus rem, quaerat mollitia, debitis
               molestiae delectus unde explicabo sint voluptas aperiam ullam.

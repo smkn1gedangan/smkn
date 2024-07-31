@@ -5,11 +5,11 @@ const TentangGuru = () => {
   return (
     <div className="flex flex-col items-center p-1">
       <Laman about="Dewan Guru Dan Staff" />
-      <h1 className="text-2xl my-4 font-semibold text-center lg:my-10">
+      <h1 className="text-2xl my-4 fontPrimary text-center lg:mt-10">
         Seluruh Dewan Guru Dan Staff
       </h1>
       <div className="w-full">
-        <div className="flex flex-wrap gap-4 justify-center mt-2 lg:mt-10">
+        <div className="flex flex-wrap gap-4 justify-center mt-2 lg:mt-2">
           <div className="w-[47%] h-[20rem] shadow-md rounded-sm  lg:w-[18%] lg:h-[18rem]">
             <div className="w-full h-3/4 overflow-hidden">
               <img

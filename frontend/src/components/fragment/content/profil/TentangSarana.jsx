@@ -6,10 +6,10 @@ const TentangSarana = () => {
     <div className="p-1 flex items-center flex-col">
       <Laman about="Sarana Dan Prasarana" />
       <div className="w-full p-1 lg:w-4/5 ">
-        <h1 className="text-2xl my-1 font-semibold lg:my-10">
+        <h1 className="text-2xl my-1 fontPrimary lg:my-10">
           Sarana dan Prasarana
         </h1>
-        <p>
+        <p className="leading-relaxed  text-base font-serif">
           Sarana Dan Prasana merupakan aspek yang penting blablabka.... Nam quas
           autem amet dolore harum, nobis ab doloribus quisquam eos error.
           Fugiat, dolores assumenda debitis odio quibusdam officiis rem
@@ -25,7 +25,7 @@ const TentangSarana = () => {
       </div>
       <div className="w-full lg:w-[90%]">
         <div className="flex flex-wrap gap-3 justify-center mt-2 lg:mt-10">
-          <div className="w-4/5 h-[15rem] rounded-sm shadow-md lg:w-[30%] lg:h-[18rem]">
+          <div className="w-4/5 h-[15rem] rounded-sm shadow-md lg:w-[30%] lg:h-[20rem]">
             <div className="w-full h-4/5 overflow-hidden">
               <img
                 src="./kantin.jpeg"
@@ -33,11 +33,11 @@ const TentangSarana = () => {
                 alt=""
               />
             </div>
-            <h1 className=" text-black text-center my-1 text-2xl font-semibold">
+            <h1 className=" text-black text-center text-2xl fontPrimary my-4">
               kantin
             </h1>
           </div>
-          <div className="w-4/5 h-[15rem] rounded-sm shadow-md lg:w-[30%] lg:h-[18rem]">
+          <div className="w-4/5 h-[15rem] rounded-sm shadow-md lg:w-[30%] lg:h-[20rem]">
             <div className="w-full h-4/5 overflow-hidden">
               <img
                 src="./resepsi.jpg"
@@ -45,11 +45,11 @@ const TentangSarana = () => {
                 alt=""
               />
             </div>
-            <h1 className=" text-black text-center my-1 text-2xl font-semibold">
+            <h1 className=" text-black text-center my-4 text-2xl fontPrimary">
               recepcionist
             </h1>
           </div>
-          <div className="w-4/5 h-[15rem] rounded-sm shadow-md lg:w-[30%] lg:h-[18rem]">
+          <div className="w-4/5 h-[15rem] rounded-sm shadow-md lg:w-[30%] lg:h-[20rem]">
             <div className="w-full h-4/5 overflow-hidden">
               <img
                 src="./lab.jpg"
@@ -57,7 +57,7 @@ const TentangSarana = () => {
                 alt=""
               />
             </div>
-            <h1 className=" text-black text-center my-1 text-2xl font-semibold">
+            <h1 className=" text-black text-center my-4 text-2xl fontPrimary">
               labolatorium komputer
             </h1>
           </div>

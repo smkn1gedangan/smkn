@@ -4,7 +4,7 @@ import BoxInformationCount from "../../element/BoxInformasiCount";
 const Count = () => {
   return (
     <div className="p-2 w-full">
-      <h1 className="font-semibold text-center text-2xl my-2 lg:my-10 lg:text-4xl">
+      <h1 className="fontPrimary text-center text-2xl my-6 lg:mt-14 lg:text-3xl">
         Tentang Sekolah
       </h1>
       <div className="flex flex-wrap justify-evenly gap-10">

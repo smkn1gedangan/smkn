@@ -4,7 +4,11 @@ import Maps from "../components/fragment/section/Maps";
 import Footer from "../components/layouts/Footer";
 import Count from "../components/fragment/section/Count";
 import Navbar from "../components/fragment/navbar/Navbar";
+import { useEffect } from "react";
 const HomePage = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className="w-full flex flex-col">
       <Navbar type="home" />
@@ -13,7 +17,7 @@ const HomePage = () => {
         <Sambutan />
         <Count />
         <Maps />
-        <Footer bgFooter="bg-slate-300" />
+        <Footer bgFooter="bg-slate-200" />
       </div>
     </div>
   );

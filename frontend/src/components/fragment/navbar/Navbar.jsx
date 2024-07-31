@@ -74,7 +74,7 @@ const Navbar = ({ type }) => {
                 d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.25c1.12.37 2.32.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"
               ></path>
             </svg>
-            <h5 className="font-semibold text-xl mx-2 max-md:text-sm">
+            <h5 className="text-xl fontPrimary mx-2 max-md:text-sm">
               +61282139123
             </h5>
           </div>
@@ -90,7 +90,7 @@ const Navbar = ({ type }) => {
                 d="M22 4H2v16h20zm-2 4l-8 5l-8-5V6l8 5l8-5z"
               ></path>
             </svg>
-            <h5 className="text-base mx-2">example@gmail.com</h5>
+            <h5 className="text-base mx-2 fontPrimary">example@gmail.com</h5>
           </div>
           {type === "edited" && (
             <h1
@@ -112,7 +112,7 @@ const Navbar = ({ type }) => {
               src="./smkn1.png"
               alt=""
             />
-            <h1 className="font-semibold text-xl text-blue-900 xl:text-2xl">
+            <h1 className="fontPrimary text-xl text-blue-900 xl:text-2xl">
               SMKN 1 GEDANGAN
             </h1>
           </div>
@@ -152,17 +152,17 @@ const Navbar = ({ type }) => {
                 type === "home" && "text-blue-400"
               } w-1/6 font-semibold  text-center max-md:w-full max-md:my-4 max-md:text-white max-md:text-2xl`}
             >
-              <Link to={`/`}> BERANDA</Link>
+              <Link className="fontPrimary" to={`/`}> BERANDA</Link>
             </li>
             <li className="w-1/6 flex justify-center font-semibold max-md:w-full max-md:my-10 max-md:border-b-2 max-md:border-b-white max-md:p-2 ">
               <div className="relative inline-block tooltip">
-                <a to="" className="hover:text-gray-400 px-2 py-1 font-medium">
+                <a to="" className="hover:text-gray-400 px-2 py-1 font-medium fontPrimary">
                   PROFIL
                 </a>
                 <div className="flex flex-col p-4 bg-white w-60 h-80 rounded-md z-20 absolute left-1/2 -translate-x-1/2 invisible tooltip-item justify-center">
                   <ul className="list-disc space-y-2 flex flex-col items-center gap-3">
                     <li className="list-none text-center font-light">
-                      <Link to={`/tentang`}>TENTANG SEKOLAH</Link>
+                      <Link className="" to={`/tentang`}>TENTANG SEKOLAH</Link>
                     </li>
                     <li className="list-none text-center font-light">
                       <Link to={"/visimisi"}>
@@ -188,7 +188,7 @@ const Navbar = ({ type }) => {
             </li>
             <li className="w-1/6 flex justify-center font-semibold max-md:w-full max-md:my-10 max-md:border-b-2 max-md:border-b-white max-md:p-2 ">
               <div className="relative inline-block tooltip">
-                <a to="" className="hover:text-gray-400 px-2 py-1 font-medium">
+                <a to="" className="hover:text-gray-400 px-2 py-1 font-medium fontPrimary">
                   KOMPETENSI
                 </a>
                 <div className="flex flex-col p-4 bg-white w-60 h-80 rounded-md z-20 absolute left-1/2 -translate-x-1/2 invisible tooltip-item justify-center ">
@@ -219,7 +219,7 @@ const Navbar = ({ type }) => {
             </li>
             <li className="w-1/6 flex justify-center font-semibold max-md:w-full max-md:my-10 max-md:border-b-2 max-md:border-b-white max-md:p-2 ">
               <div className="relative inline-block tooltip">
-                <a to="" className="hover:text-gray-400 px-2 py-1 font-medium">
+                <a to="" className="hover:text-gray-400 px-2 py-1 font-medium fontPrimary">
                   PPDB
                 </a>
                 <div className="flex flex-col p-4 bg-white w-60 h-32 rounded-md z-20 absolute left-1/2 -translate-x-1/2 invisible tooltip-item justify-center ">
@@ -235,7 +235,7 @@ const Navbar = ({ type }) => {
               </div>
             </li>
             <li className="w-1/6 flex justify-center font-semibold max-md:w-full max-md:my-10 max-md:border-b-2 max-md:border-b-white max-md:p-2 ">
-              <div className="relative inline-block tooltip">
+              <div className="relative inline-block tooltip fontPrimary">
                 <Link to="/galery" className="hover:text-gray-400 px-2 py-1 font-medium">
                   GALLERY
                 </Link>
@@ -247,6 +247,7 @@ const Navbar = ({ type }) => {
                 <a
                   href="http://elearning.smkn1gedangan-malang.sch.id/"
                   target="_blank"
+                  className="fontPrimary"
                 >
                   E-LEARNING
                 </a>

@@ -30,8 +30,8 @@ const BoxInformationCount = ({
           </Icon>
         </div>
         <div className="flex flex-col items-center w-5/6">
-          <h1 className="text-2xl max-sm:text-xl">{title}</h1>
-          <p className="text-4xl font-semibold" id={idTarget}></p>
+          <h1 className="text-2xl max-sm:text-xl fontPrimary">{title}</h1>
+          <p className="text-4xl font-semibold fontPrimary" id={idTarget}></p>
         </div>
       </div>
     </div>
