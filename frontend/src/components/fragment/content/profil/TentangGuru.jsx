@@ -5,7 +5,7 @@ const TentangGuru = () => {
   return (
     <div className="flex flex-col items-center p-1">
       <Laman about="Dewan Guru Dan Staff" />
-      <h1 className="text-2xl my-4 fontPrimary text-center lg:mt-10">
+      <h1 className="text-xl lg:text-2xl my-4 fontPrimary text-center lg:mt-10">
         Seluruh Dewan Guru Dan Staff
       </h1>
       <div className="w-full lg:w-4/5">

@@ -22,7 +22,7 @@ const SijaPage = () => {
       <Navbar />
       <div className="mt-40">
         <Kompetensi
-          title={"Sistem Informatika dan Jaringan Aplikasi"}
+          title={"SIJA"}
           bgImage={"url(./sija.avif)"}
           definisi="Sistem Informatika Jaringan dan Aplikasi merupakan kompetensi keahlian
           baru di program keahlian teknik komputer dan informatika.SIJA sebutan

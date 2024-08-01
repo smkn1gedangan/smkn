@@ -19,38 +19,38 @@ const Kompetensi = ({ title, bgImage, definisi, dipelajari, tamatan }) => {
             objectPosition: "cover",
           }}
         ></div>
-        <p className="text-center p-1 tracking-wider my-6 lg:text-base font-serif capitalize text-slate-700">
+        <p className="text-center p-1 tracking-wider my-6 text-sm lg:text-base font-serif capitalize text-slate-700">
           {definisi}
         </p>
-        <h1 className="fontPrimary text-base font-semibold mt-4">
+        <h1 className="fontPrimary lg:text-base text-sm font-semibold mt-4">
           Yang Dipelajari Peserta Didik Kompetensi Keahlian {title}
         </h1>
         <div className="w-full ml-4 mb-4">
         {dipelajari.map((item, index) => (
               <p
-                className="p-1 tracking-wider lg:text-base font-serif capitalize text-slate-700"
+                className="p-1 tracking-wider text-xs lg:text-base font-serif capitalize text-slate-700"
                 key={index}
               >
                 - {item}
               </p>
           ))}{" "}
         </div>
-        <h1 className="fontPrimary text-base w-full font-semibold mt-4">
+        <h1 className="fontPrimary lg:text-base w-full text-sm font-semibold mt-4">
           Kompetensi Tamatan
         </h1>
         <div>
-          <p className="p-1 tracking-wider lg:text-base font-serif capitalize text-slate-700">
+          <p className="p-1 tracking-wider text-xs lg:text-base font-serif capitalize text-slate-700">
             {" "}
             {tamatan}
           </p>{" "}
         </div>
-        <h1 className="fontPrimary text-base w-full font-semibold mt-4">
+        <h1 className="fontPrimary text-sm lg:text-base w-full font-semibold mt-4">
           Lingkup Pekerjaan
         </h1>
         <div className="w-full ml-4 mb-4">
         {dipelajari.map((item, index) => (
               <p
-                className="p-1 tracking-wider lg:text-base font-serif capitalize text-slate-700"
+                className="p-1 tracking-wider text-xs lg:text-base font-serif capitalize text-slate-700"
                 key={index}
               >
                 - {item}

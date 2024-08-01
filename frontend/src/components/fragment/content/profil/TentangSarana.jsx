@@ -6,7 +6,7 @@ const TentangSarana = () => {
     <div className="p-1 flex items-center flex-col">
       <Laman about="Sarana Dan Prasarana" />
       <div className="w-full p-1 lg:w-4/5 ">
-        <h1 className="text-2xl my-1 fontPrimary lg:my-10">
+        <h1 className="text-xl lg:lg:text-2xl text-center lg:text-left my-1 fontPrimary lg:my-10">
           Sarana dan Prasarana
         </h1>
         <p className="leading-relaxed  text-base font-serif text-slate-700">
@@ -25,39 +25,39 @@ const TentangSarana = () => {
       </div>
       <div className="w-full lg:w-[90%]">
         <div className="flex flex-wrap gap-3 justify-center mt-2 lg:mt-10">
-          <div className="w-4/5 h-[15rem] rounded-sm shadow-md lg:w-[30%] lg:h-[20rem]">
+          <div className="w-4/5 h-[20rem] rounded-sm shadow-md lg:w-[30%] p-1 hover:opacity-75 lg:h-[20rem]">
             <div className="w-full h-4/5 overflow-hidden">
               <img
                 src="./kantin.jpeg"
-                className="w-full h-full  object-cover object-center hover:scale-110 transition-all duration-300"
+                className="w-full h-full  object-cover object-center"
                 alt=""
               />
             </div>
-            <h1 className=" text-black text-center text-2xl fontPrimary my-4">
+            <h1 className=" text-black text-center text-xl my-4 lg:text-2xl fontPrimary">
               kantin
             </h1>
           </div>
-          <div className="w-4/5 h-[15rem] rounded-sm shadow-md lg:w-[30%] lg:h-[20rem]">
+          <div className="w-4/5 h-[20rem] rounded-sm shadow-md lg:w-[30%] p-1 hover:opacity-75 lg:h-[20rem]">
             <div className="w-full h-4/5 overflow-hidden">
               <img
                 src="./resepsi.jpg"
-                className="w-full h-full  object-cover object-center hover:scale-110 transition-all duration-300"
+                className="w-full h-full  object-cover object-center"
                 alt=""
               />
             </div>
-            <h1 className=" text-black text-center my-4 text-2xl fontPrimary">
+            <h1 className=" text-black text-center text-xl my-4 lg:text-2xl fontPrimary">
               recepcionist
             </h1>
           </div>
-          <div className="w-4/5 h-[15rem] rounded-sm shadow-md lg:w-[30%] lg:h-[20rem]">
+          <div className="w-4/5 h-[20rem] rounded-sm shadow-md lg:w-[30%] p-1 hover:opacity-75 lg:h-[20rem]">
             <div className="w-full h-4/5 overflow-hidden">
               <img
                 src="./lab.jpg"
-                className="w-full h-full  object-cover object-center hover:scale-110 transition-all duration-300"
+                className="w-full h-full  object-cover object-center"
                 alt=""
               />
             </div>
-            <h1 className=" text-black text-center my-4 text-2xl fontPrimary">
+            <h1 className=" text-black text-center text-xl my-4 lg:text-2xl fontPrimary">
               labolatorium komputer
             </h1>
           </div>
