@@ -20,10 +20,10 @@ const TentangSejarah = () => {
             alt=""
           />
         </div>
-        <h1 className="fontPrimary text-2xl my-4">
+        <h1 className="fontPrimary text-xl lg:text-2xl my-4">
           Sejarah Smkn 1 Gedangan
         </h1>
-        <p className="leading-relaxed  text-base font-serif">
+        <p className="leading-relaxed  text-base font-serif text-slate-700">
           {" "}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
           pariatur harum voluptates deleniti laudantium eum et delectus velit

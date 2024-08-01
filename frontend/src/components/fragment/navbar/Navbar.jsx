@@ -61,7 +61,7 @@ const Navbar = ({ type }) => {
       <div
         className={` bg-gradient-to-r from-blue-600 to-blue-300 h-10 p-1 w-full max-sm:h-16 max-sm:flex max-sm:justify-center max-sm:flex-wrap`}
       >
-        <div className="w-1/2 h-full flex items-center justify-evenly text-white max-md:w-full">
+        <div className="w-1/2 h-full flex items-center justify-evenly text-white max-md:w-full p-2">
           <div className="flex items-center w-1/2 justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ const Navbar = ({ type }) => {
                 d="M22 4H2v16h20zm-2 4l-8 5l-8-5V6l8 5l8-5z"
               ></path>
             </svg>
-            <h5 className="text-base mx-2 fontPrimary">example@gmail.com</h5>
+            <h5 className="text-sm mx-2 fontPrimary">example@gmail.com</h5>
           </div>
           {type === "edited" && (
             <h1

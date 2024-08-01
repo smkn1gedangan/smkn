@@ -1,7 +1,7 @@
 import React from "react";
 import Laman from "../../../element/Laman";
 
-const Ekstra = () => {
+const Ekstra = ({ data }) => {
   return (
     <div className="flex flex-col items-center p-1">
       <Laman about="Ekstrakurikuler" />
@@ -15,42 +15,82 @@ const Ekstra = () => {
             Berikut adalah Ekstrakulikuler Siswa-Siswi SMKN 1 Gedangan antara
             lain :
           </p>
-          <div className="w-full flex justify-center flex-wrap gap-4">
-            <div className="w-4/5 relative p-1 rounded-sm shadow-md lg:w-[30%] lg:p-4">
-              <h1 className="tracking-wide lg:my-4 fontPrimary">
+          <div className="w-full flex flex-wrap gap-4">
+            <div className="w-4/5 relative p-1 rounded-sm shadow-lg:p-4">
+              <h1 className="tracking-wide lg:my-4 fontPrimary uppercase">
                 1. futsal
               </h1>
-              <div className="w-full overflow-hidden flex items-center justify-center">
+              <div className="w-full overflow-hidden flex items-center h-96 justify-center">
                 <img
                   src="./futsal.jpg"
                   className="w-full h-full  object-cover object-center hover:scale-110 transition-all duration-300"
                   alt=""
                 />
               </div>
-            </div>
-            <div className="w-4/5 relative p-1 rounded-sm shadow-md lg:w-[30%] lg:p-4">
-              <h1 className="tracking-wide lg:my-4 fontPrimary">
-                2. sepak bola
+              <h1 className="fontPrimary text-base mt-8">
+                visi dan misi Ekstrakulikuler futsal
               </h1>
-              <div className="w-full overflow-hidden flex items-center justify-center">
-                <img
-                  src="./sepak.jpeg"
-                  className="w-full h-full  object-cover object-center hover:scale-110 transition-all duration-300"
-                  alt=""
-                />
+              <div className="w-full ml-4 mb-4">
+                {data?.map((item, index) => (
+                  <p
+                    className="p-1 tracking-wider lg:text-sm font-serif capitalize text-slate-700"
+                    key={index}
+                  >
+                    - {item}
+                  </p>
+                ))}{" "}
               </div>
+              <h1 className="fontPrimary text-base mt-8">
+                Jadwal Ekstrakulikuler
+              </h1>{" "}
+              <p className="p-1 tracking-wider lg:text-sm font-serif capitalize text-slate-700">
+                sabtu - minggu
+              </p>{" "}
+              <h1 className="fontPrimary text-base mt-8">
+                Pembina Ekstrakulikuler
+              </h1>{" "}
+              <p className="p-1 tracking-wider lg:text-sm font-serif capitalize text-slate-700">
+                Pak Testing
+              </p>{" "}
             </div>
-            <div className="w-4/5 relative p-1 rounded-sm shadow-md lg:w-[30%] lg:p-4">
-              <h1 className="tracking-wide lg:my-4 fontPrimary">
-                3. basket
+          </div>
+          <div className="w-full flex flex-wrap gap-4">
+            <div className="w-4/5 relative p-1 rounded-sm shadow-lg:p-4">
+              <h1 className="tracking-wide lg:my-4 fontPrimary uppercase">
+                1. basket
               </h1>
-              <div className="w-full overflow-hidden flex items-center justify-center">
+              <div className="w-full overflow-hidden flex items-center h-96 justify-center">
                 <img
                   src="./basket.jpg"
                   className="w-full h-full  object-cover object-center hover:scale-110 transition-all duration-300"
                   alt=""
                 />
               </div>
+              <h1 className="fontPrimary text-base mt-8">
+                visi dan misi Ekstrakulikuler basket
+              </h1>
+              <div className="w-full ml-4 mb-4">
+                {data?.map((item, index) => (
+                  <p
+                    className="p-1 tracking-wider lg:text-sm font-serif capitalize text-slate-700"
+                    key={index}
+                  >
+                    - {item}
+                  </p>
+                ))}{" "}
+              </div>
+              <h1 className="fontPrimary text-base mt-8">
+                Jadwal Ekstrakulikuler
+              </h1>{" "}
+              <p className="p-1 tracking-wider lg:text-sm font-serif capitalize text-slate-700">
+                sabtu - minggu
+              </p>{" "}
+              <h1 className="fontPrimary text-base mt-8">
+                Pembina Ekstrakulikuler
+              </h1>{" "}
+              <p className="p-1 tracking-wider lg:text-sm font-serif capitalize text-slate-700">
+                Pak Testing
+              </p>{" "}
             </div>
           </div>
         </div>

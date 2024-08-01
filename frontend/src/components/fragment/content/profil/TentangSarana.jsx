@@ -9,7 +9,7 @@ const TentangSarana = () => {
         <h1 className="text-2xl my-1 fontPrimary lg:my-10">
           Sarana dan Prasarana
         </h1>
-        <p className="leading-relaxed  text-base font-serif">
+        <p className="leading-relaxed  text-base font-serif text-slate-700">
           Sarana Dan Prasana merupakan aspek yang penting blablabka.... Nam quas
           autem amet dolore harum, nobis ab doloribus quisquam eos error.
           Fugiat, dolores assumenda debitis odio quibusdam officiis rem

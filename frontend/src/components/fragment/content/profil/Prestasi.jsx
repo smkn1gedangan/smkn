@@ -8,13 +8,13 @@ const Prestasi = () => {
       <div className="w-full flex lg:justify-center">
         <div className="flex w-full flex-wrap mt-2 lg:mt-10 lg:w-4/5">
           <h1 className="fontPrimary text-2xl inline-block w-full">Prestasi Akademik dan Non Akademik</h1>
-          <p className="my-4  leading-loose text-sm">Prestasi Yang Pernah Diraih Siswa-Siswi SMKN 1 Gedangan antara lain :</p>
+          <p className="my-2  leading-loose text-sm">Prestasi Yang Pernah Diraih Siswa-Siswi SMKN 1 Gedangan antara lain :</p>
           <div className="w-full ml-2">
-            <p className="my-4  leading-loose text-sm">1. juara 1 lomba blkjasdjkjasjd pada tahun 2021</p>
-            <p className="my-4  leading-loose text-sm">2. juara 4 lomba blkjasdjkjasjd se jawa timur pada tahun 2022</p>
-            <p className="my-4  leading-loose text-sm">3. juara 3 lomba blkjasdjkjasjd tingkat nasional pada tahun 2022</p>
-            <p className="my-4  leading-loose text-sm">4. juara 2 lomba blkjasdjkjasjd tingkat kabupaten pada tahun 2024</p>
-            <p className="my-4  leading-loose text-sm">5. juara 5 lomba blkjasdjkjasjd pada tahun 2016</p>
+            <p className="my-2  leading-loose text-sm">1. juara 1 lomba blkjasdjkjasjd pada tahun 2021</p>
+            <p className="my-2  leading-loose text-sm">2. juara 4 lomba blkjasdjkjasjd se jawa timur pada tahun 2022</p>
+            <p className="my-2  leading-loose text-sm">3. juara 3 lomba blkjasdjkjasjd tingkat nasional pada tahun 2022</p>
+            <p className="my-2  leading-loose text-sm">4. juara 2 lomba blkjasdjkjasjd tingkat kabupaten pada tahun 2024</p>
+            <p className="my-2  leading-loose text-sm">5. juara 5 lomba blkjasdjkjasjd pada tahun 2016</p>
           </div>
         </div>
       </div>

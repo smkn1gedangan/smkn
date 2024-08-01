@@ -31,7 +31,7 @@ const Laman = ({ about, type }) => {
           Beranda
         </Link>
         <span>&gt;</span>
-        <h1 className="fontPrimary">{about}</h1>
+        <h1 className="fontPrimary text-sm lg:text-base">{about}</h1>
       </div>
     </div>
   );

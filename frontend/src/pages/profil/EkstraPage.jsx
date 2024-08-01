@@ -7,11 +7,20 @@ const EkstraPage = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+  const data = [
+    "Sistem Komputer",
+    "Komputer dan Jaringan Dasar",
+    "Pemrograman Dasar",
+    "Dasar Desain Grafis",
+    "Dasar Program Keahlian",
+    "Infrastruktur Komputasi Awan (IaaS)",
+    "Platform Komputasi Awan (PaaS)",
+  ];
   return (
     <div className="w-full flex flex-col">
       <Navbar />
       <div className="mt-40">
-        <Ekstra />
+        <Ekstra data={data}/>
         <Footer bgFooter="bg-slate-300" />
       </div>
     </div>

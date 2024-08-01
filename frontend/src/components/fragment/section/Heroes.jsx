@@ -26,9 +26,9 @@ const Heroes = () => {
   return (
     <div className="slider-container w-full overflow-x-hidden">
       <Slider className="w-full" {...settings}>
-        <div className="w-full">
-          <div className="w-full bg-blue-950 flex justify-around p-1">
-            <div className="w-[47%] flex flex-col p-1 justify-center ">
+        <div className="w-full ">
+          <div className="w-full bg-blue-950 items-center flex justify-around p-1">
+            <div className="w-[48%] flex flex-col p-2 justify-center ">
               <h1 className="fontPrimary capitalize text-sm text-center tracking-wide  text-gray-100 lg:text-3xl">
                 Selamat datang di website smkn 1 Gedangan
               </h1>
@@ -39,7 +39,7 @@ const Heroes = () => {
               </p>
             </div>
             <img
-              className="w-[47%] h-44 object-cover object-center md:h-[20rem] lg:h-[30rem]"
+              className="w-[51%] h-48 object-cover object-center md:h-[20rem] lg:h-[30rem]"
               src="./header.jpeg"
               alt=""
             />
@@ -47,17 +47,17 @@ const Heroes = () => {
         </div>
         <div className="w-full">
           <div className="w-full bg-blue-950 flex justify-around p-1">
-            <div className="w-[47%] flex flex-col p-1 justify-center ">
+            <div className="w-[48%] flex flex-col p-2 justify-center ">
               <h1 className="fontPrimary capitalize font-semibold text-sm text-center tracking-wide text-white lg:text-3xl">
                 Lorem ipsum dolor sit amet.
               </h1>
-              <p className="text-white text-xs text-center font-light lg:text-base mt-2">
+              <p className="fontPrimary text-white text-xs text-center font-light lg:text-base mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolores, necessita
               </p>
             </div>
             <img
-              className="w-[47%] h-44 object-cover object-center md:h-[20rem] lg:h-[30rem]"
+              className="w-[51%] h-48 object-cover object-center md:h-[20rem] lg:h-[30rem]"
               src="./header2.png"
               alt=""
             />
@@ -65,9 +65,9 @@ const Heroes = () => {
         </div>
         <div className="w-full">
           <div className="w-full bg-blue-950 flex justify-around p-1">
-            <div className="w-[47%] flex flex-col p-1 justify-center ">
+            <div className="w-[48%] flex flex-col p-2 justify-center ">
               <h1 className="fontPrimary capitalize font-semibold text-sm text-center tracking-wide text-white lg:text-3xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, dolorum?
+                Lorem ipsum dolor sit amet consectetur
               </h1>
               <p className="fontPrimary text-white text-xs text-center font-light lg:text-base mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -75,7 +75,7 @@ const Heroes = () => {
               </p>
             </div>
             <img
-              className="w-[47%] h-44 object-cover object-center md:h-[20rem] lg:h-[30rem]"
+              className="w-[51%] h-48 object-cover object-center md:h-[20rem] lg:h-[30rem]"
               src="./header3.jpeg"
               alt=""
             />
