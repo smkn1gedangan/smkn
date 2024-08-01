@@ -17,7 +17,7 @@ const Footer = ({ bgFooter }) => {
         <img src="./icon.png" className="w-24 h-24" alt="" />
         <p className="text-center fontPrimary mt-4">
           Jl. Raya Sumberrejo, Sumberrejo Krajan, Sumberejo, Gedangan, Kabupaten
-          Malang, Jawa Timur 65178.SMK Negeri 1 loremData bertekad mencapai
+          Malang, Jawa Timur 65178.SMK Negeri 1 Gedangan bertekad mencapai
           perbaikan yang berkesinambungan berdasarkan sistem manajemen mutu
         </p>
       </div>
